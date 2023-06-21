@@ -1,0 +1,43 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600;700&display=swap"); Montserrat */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-family: "Montserrat";
+  --first-background: #fafafa;
+  --second-background: #ffffff;
+  --third-background: #f3f3f3;
+  --footer-background: #16697a;
+  --second-color: #737373;
+  --primary-background: #ffa62b;
+}
+
+.container {
+  /* 1440-2*195=1050 */
+/* max-width: 1050px;
+  margin: 0 auto;
+} */
+/* #home {
+  padding-top: 140px;
+} */
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600;700&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-family: "Montserrat";
+  --first-background: #fafafa;
+  --second-background: #ffffff;
+  --third-background: #f3f3f3;
+  --footer-background: #16697a;
+  --second-color: #737373;
+  --primary-background: #ffa62b;
+}
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+}

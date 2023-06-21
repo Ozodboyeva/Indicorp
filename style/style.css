@@ -1,0 +1,125 @@
+/* development */
+
+@import "common.css";
+@import "header.css";
+@import "home.css";
+@import "advice.css";
+@import "about.css";
+@import "services.css";
+@import "service-logo.css";
+@import "contact-info.css";
+@import "footer.css";
+
+#contact {
+  padding: 3% 0px;
+  background-color: var(--third-background);
+}
+.contact-texts {
+  text-align: center;
+}
+.contact-texts h2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.contact-texts p {
+  width: 39%;
+  margin: 0 auto;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.contact_cards {
+  display: flex;
+  gap: 29px;
+  margin-top: 30px;
+}
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 40px;
+  gap: 15px;
+  width: 328px;
+  height: 333px;
+  background: #ffffff;
+}
+.actively:hover {
+  background-color: #252b42;
+  color: var(--second-background);
+}
+.contact-card p {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.contact-card h4 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.bt1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  width: 180px;
+  height: 44px;
+  border: 1px solid #ffa62b;
+  border-radius: 5px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffa62b;
+  background-color: var(--second-background);
+  cursor: pointer;
+}
+.contact-card img {
+  width: 25%;
+}
+@media (max-width: 1040px) {
+  .contact_cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-texts h2 {
+    font-size: 35px;
+  }
+  .contact-card p {
+    width: 80%;
+  }
+}
+@media (max-width: 800px) {
+  .contact-card {
+    width: 300px;
+    height: 290px;
+  }
+
+  .contact-texts h2 {
+    font-size: 30px;
+  }
+  .contact-card p {
+    width: 90%;
+  }
+}
+/* contact section done */
